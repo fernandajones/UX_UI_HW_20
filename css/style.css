@@ -1,0 +1,39 @@
+.container-fluid{
+    width: 100%
+
+} 
+.img-thumbnail {
+    padding: .25rem;
+    height: auto;
+    background: transparent;
+    border: none !important;
+}
+
+.navlogo{
+    max-width: 56px;  
+}
+
+.card-custom{
+    width: 400px;
+    background: none;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    flex:auto;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    text-align: center;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.card-img-center {
+    -ms-flex-align: center;
+}
